@@ -10,7 +10,7 @@ public class Q11719 {
 		Scanner sc = new Scanner(System.in);
 		ArrayList<String> list = new ArrayList<String>();
 		
-		while(sc.hasNext()) {
+		while(sc.hasNextLine()) {
 			
 			String input = sc.nextLine();
 			
