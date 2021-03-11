@@ -19,8 +19,6 @@ public class Q1463 {
 		
 		System.out.print(recur(N));
 
-
-
 	}
 	
 	static int recur(int N) {
