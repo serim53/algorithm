@@ -20,6 +20,7 @@ public class Q11727 {
             	d[i] = (d[i-1] + d[i-2] + d[i-2]) % 10007;
         	}
     	}
+    	
     	System.out.println(d[n]);
 	}
  }
