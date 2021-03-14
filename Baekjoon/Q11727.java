@@ -17,7 +17,7 @@ public class Q11727 {
 
     	if(n>=2){
         	for(int i = 2; i <= n; i++){
-            	d[i] = (d[i-1] + d[i-2]) % 10007;
+            	d[i] = (d[i-1] + d[i-2] + d[i-2]) % 10007;
         	}
     	}
     	System.out.println(d[n]);
